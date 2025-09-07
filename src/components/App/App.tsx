@@ -6,7 +6,7 @@ import NoteModal from "../Modal/Modal";
 import NoteForm from "../NoteForm/NoteForm";
 import SearchBox from "../SearchBox/SearchBox";
 import Pagination from "../Pagination/Pagination";
-import { fetchNotes } from "../../services/NoteService";
+import { fetchNotes } from "../../services/noteService";
 import { useQuery, keepPreviousData } from "@tanstack/react-query";
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
